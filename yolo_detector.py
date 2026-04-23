@@ -61,7 +61,7 @@ if __name__ == "__main__":
             frame_result = detect_object(frame)
             
             # Watermark
-            text = "Tanat Kunharee Clicknext-Internship"
+            text = "Tanat Clicknext-Internship-2024"
             cv.putText(frame_result, text, (frame_result.shape[1] - 550, 50), 
                        cv.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 255), 2)
 
