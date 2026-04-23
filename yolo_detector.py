@@ -72,7 +72,6 @@ if __name__ == "__main__":
                 break
         else:
             break
-
     # Release the VideoCapture object and close the window
     cap.release()
     cv.destroyAllWindows()
